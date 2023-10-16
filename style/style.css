@@ -120,6 +120,7 @@ body {
     visibility: hidden;
   }
   .header__navigation--toggle-tab {
+    margin-top: -20px;
     display: block;
     visibility: visible;
     display: flex;
