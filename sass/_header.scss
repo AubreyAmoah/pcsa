@@ -1,0 +1,111 @@
+.header{
+    position: relative;
+    height: 100vh;
+
+    &__navigation{
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &--toggle-tab{
+            display: none;
+            visibility: hidden;
+            margin-left: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            border: 1px solid #000;
+            width: 40px;
+            height: 30px;
+
+            padding: 6px 5px;
+
+            .bar{
+                background-color: #000;
+                border-radius: 10px;
+                height: 10%;
+                width: 100%;
+            }
+        }
+
+        &--logo{
+            margin-left: 20px;
+            display: flex;
+            align-items: center;
+            color: #000;
+            text-decoration: none;
+            font-weight: 600;
+            letter-spacing: 2px;
+            font-size: 18px;
+
+            img{
+                height: 50px;
+                margin-right: 5px;
+            }
+        }
+
+        input[type="checkbox"]{
+            display: none;
+            visibility: hidden;
+        }
+
+        &--list{
+            margin-right: 20px;
+
+            &-item {
+                margin-left: 10px;
+                list-style-type: none;
+
+                &_link{
+                    text-decoration: none;
+                    color: black;
+                    font: 18px;
+                    letter-spacing: 3px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header{
+        position: relative;
+        height: 100vh;
+    
+        &__navigation{
+            height: 10%;
+            z-index: 999;
+
+
+            &--logo{
+                display: none;
+                height: 0;
+                width: 0;
+                visibility: hidden;
+            }
+    
+            &--list{
+                display: none;
+                height: 0;
+                width: 0;
+                visibility: hidden;
+            }
+
+            &--toggle-tab{
+                display: block;
+                visibility: visible;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+        }
+    }
+}
