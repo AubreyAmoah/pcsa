@@ -1,0 +1,53 @@
+.footer{
+    padding: 30px 60px;
+    min-height: 200px;
+    background-color: rgb(145, 84, 5);
+    color: rgb(0, 20, 0);
+
+    .ruler{
+        background-color: rgb(145, 84, 5);
+    }
+
+    &__content{
+        margin: 40px auto;
+        display: flex;
+        justify-content: space-between;
+
+        h2{
+            font-weight: 400;
+            color: rgb(0, 20, 0);
+        }
+
+        img{
+            height: 60px;
+        }
+
+        ul{
+            list-style-type: none;
+
+            li{
+                a{
+                    text-decoration: none;
+                    color: rgb(0, 20, 0);
+                }
+            }
+        }
+
+        &--field{
+            h2{
+                font-weight: 400;
+            }
+            p{
+
+            }
+
+            img{
+                height: 20px;
+            }
+
+            span{
+
+            }
+        }
+    }
+}
