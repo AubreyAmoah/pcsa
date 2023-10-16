@@ -319,6 +319,17 @@ body {
   margin-bottom: 20px;
   text-transform: uppercase;
 }
+.caption img {
+  display: none;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  opacity: 0.3;
+}
 
 @media screen and (1024px <= width <= 1024px) and (1366px <= height <= 1366px) {
   .caption {
@@ -351,6 +362,9 @@ body {
     background: #fff;
     color: #000;
   }
+  .caption img {
+    display: block;
+  }
 }
 @media screen and (max-width: 800px) {
   .caption {
@@ -368,6 +382,10 @@ body {
   .caption h3 {
     font-size: 30px;
   }
+  .caption img {
+    height: 500px;
+    width: 500px;
+  }
 }
 @media screen and (820px <= width <= 820px) and (1180px <= height <= 1180px) {
   .caption {
@@ -376,6 +394,10 @@ body {
   .caption h3 {
     font-size: 30px;
   }
+  .caption img {
+    height: 500px;
+    width: 500px;
+  }
 }
 @media screen and (800px <= width <= 800px) and (1280px <= height <= 1280px) {
   .caption {
@@ -383,6 +405,10 @@ body {
   }
   .caption h3 {
     font-size: 30px;
+  }
+  .caption img {
+    height: 500px;
+    width: 500px;
   }
 }
 @media screen and (640px <= width <= 640px) and (360px <= height <= 360px) {
@@ -430,6 +456,10 @@ body {
   .caption {
     height: 65.5vh;
   }
+  .caption img {
+    height: 250px;
+    width: 250px;
+  }
 }
 @media screen and (max-width: 250px) {
   .caption {
@@ -447,6 +477,10 @@ body {
   }
   .caption h3 {
     font-size: 10px;
+  }
+  .caption img {
+    height: 100px;
+    width: 100px;
   }
 }
 @media screen and (384px <= width <= 384px) and (640px <= height <= 640px) {
