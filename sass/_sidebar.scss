@@ -7,6 +7,7 @@
     width: 0;
     height: 0;
     background: #fff;
+    font-size: 40px;
     z-index: 1;
 
     &__logo{
@@ -50,7 +51,7 @@
 @media screen and (max-width: 400px) {
     .side-nav{
         &__logo{
-            font-size: 12px;
+            font-size: 20px;
             font-weight: 400;
             margin-bottom: 20px;
             

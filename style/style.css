@@ -515,6 +515,7 @@ body {
   width: 0;
   height: 0;
   background: #fff;
+  font-size: 40px;
   z-index: 1;
 }
 .side-nav__logo {
@@ -549,7 +550,7 @@ body {
 
 @media screen and (max-width: 400px) {
   .side-nav__logo {
-    font-size: 12px;
+    font-size: 20px;
     font-weight: 400;
     margin-bottom: 20px;
   }
@@ -649,39 +650,6 @@ body {
     width: 50%;
   }
 }
-@media screen and (1024px <= width <= 1024px) and (1366px <= height <= 1366px) {
-  .video__head {
-    background-color: aqua;
-    height: 81.5%;
-  }
-  .video__head h1 {
-    display: none;
-    visibility: hidden;
-  }
-  .video__head h2 {
-    display: none;
-    visibility: hidden;
-  }
-  .video__head iframe {
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-  }
-  .video__head--side {
-    top: 60%;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 30px;
-  }
-  .video__head .btn {
-    display: none;
-    visibility: hidden;
-    height: 0;
-    width: 0;
-  }
-}
 @media screen and (max-width: 1024px) {
   .video__head h1 {
     font-size: 14px;
@@ -694,7 +662,35 @@ body {
     width: 50%;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (1024px <= width <= 1024px) and (1366px <= height <= 1366px) {
+  .video__head {
+    height: 81.5%;
+  }
+  .video__head h1 {
+    display: none;
+    visibility: hidden;
+  }
+  .video__head h2 {
+    display: none;
+    visibility: hidden;
+  }
+  .video__head iframe {
+    top: 25%;
+    height: 50%;
+    width: 100%;
+  }
+  .video__head--side {
+    top: 60%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+  }
+  .video__head .btn {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 950px) {
   .video__head h1 {
     display: none;
   }
