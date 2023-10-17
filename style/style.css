@@ -511,7 +511,7 @@ body {
   visibility: hidden;
   position: absolute;
   right: 0;
-  top: 7%;
+  top: 9%;
   width: 0;
   height: 0;
   background: #fff;
@@ -600,10 +600,135 @@ body {
   width: 40%;
   height: 50%;
 }
-.video__head a img {
+.video__head--side {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 20%;
+  height: 50%;
+  padding: 20px;
+  position: absolute;
+  left: 2%;
+  top: 40%;
+  overflow: auto;
+}
+.video__head--side a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 20px;
+}
+.video__head--side a img {
   height: 20px;
 }
+.video__head .btn {
+  text-decoration: none;
+  position: absolute;
+  top: 85%;
+  right: 2%;
+  background-color: rgba(0, 0, 0, 0.651);
+  backdrop-filter: blur(5px);
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 4px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.video__head .btn:hover {
+  background: #fff;
+  color: #000;
+}
 
+@media screen and (max-width: 1280px) {
+  .video__head iframe {
+    height: 60%;
+    width: 50%;
+  }
+}
+@media screen and (1024px <= width <= 1024px) and (1366px <= height <= 1366px) {
+  .video__head {
+    background-color: aqua;
+    height: 81.5%;
+  }
+  .video__head h1 {
+    display: none;
+    visibility: hidden;
+  }
+  .video__head h2 {
+    display: none;
+    visibility: hidden;
+  }
+  .video__head iframe {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .video__head--side {
+    top: 60%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+  }
+  .video__head .btn {
+    display: none;
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .video__head h1 {
+    font-size: 14px;
+  }
+  .video__head h2 {
+    font-size: 12px;
+  }
+  .video__head iframe {
+    height: 60%;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .video__head h1 {
+    display: none;
+  }
+  .video__head h2 {
+    display: none;
+  }
+  .video__head iframe {
+    top: 25%;
+    height: 50%;
+    width: 100%;
+  }
+  .video__head--side {
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (800px <= width <= 800px) and (1280px <= height <= 1280px) {
+  .video__head--side {
+    font-size: 30px;
+  }
+  .video__head .btn {
+    font-size: 30px;
+  }
+}
+@media screen and (712px <= width <= 712px) and (1138px <= height <= 1138px) {
+  .video__head--side {
+    font-size: 30px;
+  }
+  .video__head .btn {
+    font-size: 30px;
+  }
+}
 .footer {
   padding: 30px 60px;
   min-height: 200px;
