@@ -1,0 +1,40 @@
+.video__head{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    height: 90%;
+    width: 100%;
+
+    h1{
+        text-align: center;
+        margin-top: 15px;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 60px;
+        letter-spacing: 5px;
+    }
+
+    h2{
+        text-align: center;
+        margin-top: 10px;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 5px;
+    }
+
+    iframe{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+        width: 40%;
+        height: 50%;
+    }
+
+    a{
+        img{
+            height: 20px;
+        }
+    }
+}

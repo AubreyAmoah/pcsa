@@ -569,6 +569,41 @@ body {
     margin-bottom: 10px;
   }
 }
+.video__head {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  height: 90%;
+  width: 100%;
+}
+.video__head h1 {
+  text-align: center;
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+.video__head h2 {
+  text-align: center;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+.video__head iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  width: 40%;
+  height: 50%;
+}
+.video__head a img {
+  height: 20px;
+}
+
 .footer {
   padding: 30px 60px;
   min-height: 200px;
