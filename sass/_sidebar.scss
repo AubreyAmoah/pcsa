@@ -1,13 +1,12 @@
 .side-nav{
     display: none;
     visibility: hidden;
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 9%;
     width: 0;
     height: 0;
     background: #fff;
-    font-size: 40px;
     z-index: 1;
 
     &__logo{
@@ -18,7 +17,6 @@
         color: #000;
         text-decoration: none;
         font-weight: 600;
-        font-size: 18px;
         margin-bottom: 20px;
         
 
@@ -40,7 +38,7 @@
             &_link{
                 text-decoration: none;
                 color: #000;
-                font-weight: 600;
+                font-weight: 400;
             }
         }
     }
@@ -51,7 +49,7 @@
 @media screen and (max-width: 400px) {
     .side-nav{
         &__logo{
-            font-size: 20px;
+            font-size: 16px;
             font-weight: 400;
             margin-bottom: 20px;
             
