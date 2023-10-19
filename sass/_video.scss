@@ -199,7 +199,7 @@
     align-items: center;
 
     &--video{
-        height: 400px;
+        height: 450px;
         width: 300px;
         background-color: transparent;
         border-radius: 5px;
@@ -215,6 +215,22 @@
             background-color: #fff;
             height: 50%;
             width: 100%;
+            padding: 20px;
+            overflow: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+
+            a{
+                text-decoration: none;
+                color: #000;
+                margin-bottom: 20px;
+            }
+
+            img{
+                height: 20px;
+            }
         }
     }
 }

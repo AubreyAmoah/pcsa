@@ -733,7 +733,7 @@ body {
   align-items: center;
 }
 .videos__container--video {
-  height: 400px;
+  height: 450px;
   width: 300px;
   background-color: transparent;
   border-radius: 5px;
@@ -748,6 +748,20 @@ body {
   background-color: #fff;
   height: 50%;
   width: 100%;
+  padding: 20px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.videos__container--video_caption a {
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 20px;
+}
+.videos__container--video_caption img {
+  height: 20px;
 }
 
 @media screen and (max-width: 1024px) {
