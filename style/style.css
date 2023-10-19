@@ -66,7 +66,7 @@ body {
   text-decoration: none;
   font-weight: 600;
   letter-spacing: 2px;
-  font-size: 18px;
+  font-size: 16px;
   transition: all 0.3s ease-in-out;
 }
 .header__navigation--logo img {
@@ -96,14 +96,14 @@ body {
 .header__navigation--list-item_link {
   text-decoration: none;
   color: black;
-  font: 18px;
+  font: 16px;
   letter-spacing: 3px;
   text-transform: uppercase;
   transition: all 0.3s ease-in-out;
 }
 .header__navigation--list-item_link:hover {
   border-bottom: 2px solid #000;
-  font: 18px;
+  font: 16px;
   letter-spacing: 1px;
   text-transform: lowercase;
 }
@@ -658,6 +658,12 @@ body {
   .video__head iframe {
     height: 60%;
     width: 50%;
+  }
+  .video__head .btn {
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
   }
 }
 @media screen and (1024px <= width <= 1024px) and (1366px <= height <= 1366px) {

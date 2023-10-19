@@ -55,7 +55,7 @@
             text-decoration: none;
             font-weight: 600;
             letter-spacing: 2px;
-            font-size: 18px;
+            font-size: 16px;
             transition: all .3s ease-in-out;
 
             img{
@@ -90,7 +90,7 @@
                 &_link{
                     text-decoration: none;
                     color: black;
-                    font: 18px;
+                    font: 16px;
                     letter-spacing: 3px;
                     text-transform: uppercase;
                     transition: all .3s ease-in-out;
@@ -98,7 +98,7 @@
 
                 &_link:hover{
                     border-bottom: 2px solid #000;
-                    font: 18px;
+                    font: 16px;
                     letter-spacing: 1px;
                     text-transform: lowercase;
                 }
